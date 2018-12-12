@@ -1,0 +1,68 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.jumbotron {
+    margin-top: -20px;
+    padding-top: 20px;
+    padding-bottom: 450px;
+    font-family: "Gamja Flower";
+}
+
+.navbar{
+    margin-top: 20px;
+}
+/* Size of font and logo */
+
+.fa, .navbar-brand {
+    
+    font-size: 50px;
+}
+
+.form-group {
+    margin-left: 100px;
+}
+
+
+button.btn.btn-default.dropdown-hover{
+    display: block;
+}
+/*Formatting of the buttons*/ 
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle){
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-width: 2px ;
+    font-size: 15px;
+}
+
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child),  .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+     border-right: none;
+    border-bottom: none;
+    border-top: none;
+    border-left: solid;
+    border-width: 2px ;
+    font-size: 15px;
+}
+
+
+.dropdown-menu-right {
+    margin-top: 20px;
+}
+.navbar-brand {
+    font-family: "Bungee";
+    font-weight: 100;
+}
+/* The Magic
+Float Center Code */
+.float_center {
+  float: right;
+      margin-top: -20px;
+
+
+  position: relative;
+  left: -45%; /* or right 50% */
+  text-align: left;
+}
