@@ -4,19 +4,31 @@
 @import "font-awesome";
 
 .jumbotron {
+   
     margin-top: -20px;
-    padding-top: 20px;
-    padding-bottom: 450px;
-    font-family: "Gamja Flower";
+    padding-top: 250px;
+    padding-bottom: 400px;
+    font-family: "Oswald";
+    color: black;
+    font-weight: 100;
+    background-image: url("https://images.pexels.com/photos/2128/person-woman-sitting-old.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: 100% 100%;
+
+}
+
+.msg {
+    margin-left: 80px;
 }
 
 .navbar{
     margin-top: 20px;
+
+
 }
 /* Size of font and logo */
 
 .fa, .navbar-brand {
-    
+     color: black;
     font-size: 50px;
 }
 
@@ -29,27 +41,43 @@ button.btn.btn-default.dropdown-hover{
     display: block;
 }
 /*Formatting of the buttons*/ 
-.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle){
+.lgnin, .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle){
     border-right: none;
     border-bottom: none;
     border-top: none;
     border-left: none;
-    border-width: 2px ;
-    font-size: 15px;
+    border-width: 0.5px ;
+    font-size: 17px;
+    border-radius: 0;
+    font-family: "Rajdhani";
+        font-weight: 25;
+
 }
 
-.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child),  .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+
+
+.sgnup, .htw {
+    border-radius: 0;
      border-right: none;
     border-bottom: none;
     border-top: none;
     border-left: solid;
-    border-width: 2px ;
-    font-size: 15px;
+    border-width: 0.5px ;
+    font-size: 17px;
+    font-family: "Rajdhani";
+        font-weight: 25;
+
 }
 
 
-.dropdown-menu-right {
-    margin-top: 20px;
+
+
+.form-group, .btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+    border-radius: 0;
+     border-style: none;
+    font-family: "Rajdhani";
+    font-weight: 25;
+    font-size: 17px;
 }
 .navbar-brand {
     font-family: "Bungee";

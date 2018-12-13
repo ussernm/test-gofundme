@@ -2,7 +2,8 @@
 <html>
 <head>
   <title>Awam</title>
-<link href="https://fonts.googleapis.com/css?family=Bungee|Gamja+Flower" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -12,7 +13,7 @@
 
 <nav class="navbar navbar-light bg-light">
   
- 
+ <!-- Search bar and dropdown link -->
 <form class="navbar-form navbar-left" role="search">
   <div class="form-group">
     <input type="text" class="form-control" placeholder="Search Fundraisers">
@@ -33,28 +34,52 @@
   </div>
 </form>
 
- 
+  <!-- Search bar and dropdown link -->
+
+<!-- Brandname + Logo -->
 
   <div class ="float_center" >
-  <a  class="navbar-brand" href="#"> <i class="fa fa-gift"></i>  
-  Awam</a>
+    
+    <%= link_to root_path, class: "navbar-brand" do %>
+
+      <i class="fa fa-gift"></i>  
+      Awam
+  
+    <%end%>
   </div>
   
+  <!-- Brandname + Logo -->
+
   <!-- Log in and sign up buttons -->
 
 <div class="navbar-right btn-group" role="group" aria-label="...">
-  
-  
-  <button type="button" class="btn btn-default">Log In</button>
 
-  <button type="button" class="btn btn-default">Sign Up</button>
-  <button type="button" class="btn btn-default">How It Works</button>
+  <%= link_to about_path do %>
+
+  <button type="button" class="lgnin btn btn-default">Log In</button>
+
+  <%end%>
+
+  <%= link_to about_path do %>
+
+  <button type="button" class="sgnup btn btn-default">Sign Up</button>
+  
+  <%end%>
+  
+  <%= link_to about_path do %>
+  
+  <button type="button" class="htw btn btn-default">How It Works</button>
+  
+  <%end%>
   
   
 </div>
+
+<!-- Log in and sign up buttons -->
 
 </nav>
 <%= yield %>
 
 </body>
+
 </html>
