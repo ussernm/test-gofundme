@@ -3,37 +3,48 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+
 .jumbotron {
    
     margin-top: -20px;
     padding-top: 250px;
-    padding-bottom: 400px;
+    padding-bottom: 320px;
     font-family: "Oswald";
     color: black;
-    font-weight: 100;
+    font-weight: 900;
     background-image: url("https://images.pexels.com/photos/2128/person-woman-sitting-old.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: 100% 100%;
+    font-size: 45px;
+    position:relative;
 
 }
-
+/* Main message positioning */
 .msg {
     margin-left: 80px;
 }
 
 .navbar{
+
     margin-top: 20px;
+    min-width: 930px;
 
+}
 
+@media only screen and (max-width: 950px) {
+  .sgn, .dab, .lgnin, .sgnup, .htw, .navbar-form, .dropdown-toggle {
+display: none;
+}
 }
 /* Size of font and logo */
 
 .fa, .navbar-brand {
      color: black;
     font-size: 50px;
+    margin-top: -10px;
 }
 
-.form-group {
-    margin-left: 100px;
+.form-group, .dropdown-toggle, .dab {
+    margin-top: -8px;
 }
 
 
@@ -93,4 +104,117 @@ Float Center Code */
   position: relative;
   left: -45%; /* or right 50% */
   text-align: left;
+}
+
+/*Below Jumbotron button formatting */
+/*2 Buttons directly under jumbotron*/
+.expl, .expl:focus, .expl:active, .expl:hover {
+    margin-top: 30px;
+  margin-left: 50px;
+      margin-bottom: 30px;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 110px;
+    padding-right: 130px;
+    
+        background-image:url('https://images.pexels.com/photos/327186/pexels-photo-327186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: 100% 100%;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        font-weight: 900;
+        font-family: "Oswald";
+        font-size: 55px;
+
+}
+
+.srtf, .srtf:focus, .srtf:active, .srtf:hover{
+        margin-top: 30px;
+
+      margin-bottom: 30px;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-left: 120px;
+    padding-left: 150px;
+    padding-top: 150px;
+    padding-bottom: 110px;
+    padding-right: 130px;
+
+
+        background-image:url('https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: 100% 100%;
+        color: white;
+        font-weight: 900;
+        font-family: "Oswald";
+        font-size: 55px;
+    }
+  .srtf:hover, .expl:hover {
+box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
+ }  
+ 
+/*2 Buttons directly under jumbotron*/
+
+/*Categories headings + icons*/
+
+.cats {
+    font-family: "Teko";
+    font-size: 65px;
+    color: black;
+}
+
+.eme {
+    padding: 63px;
+    font-size: 30px;
+    border: none;
+    border-width: 0.5px ;
+    font-family: "Rajdhani";
+    border-radius: 0;
+}
+
+.med {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 88px;
+    padding-right: 88px;
+    font-size: 30px;
+    border: none;
+    border-radius: 0;
+    border-width: 0.5px ;
+    font-family: "Rajdhani";
+
+}
+
+.edu {
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-left: 72px;
+    padding-right: 73px;
+        font-family: "Rajdhani";
+
+    font-size: 30px;
+    border:none;
+        border-width: 0.5px ;
+
+}
+
+.mem {
+    padding-top: 64px;
+    padding-bottom: 62px;
+    padding-left: 75px;
+    padding-right: 70px;
+    font-size: 30px;
+    border:none;
+    font-family: "Rajdhani";
+
+
+}
+
+.sgn {
+    text-align: center;
+}
+
+.sgn1 {
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 0;
+    font-size: 20px;
+    font-family: "Rajdhani";
 }

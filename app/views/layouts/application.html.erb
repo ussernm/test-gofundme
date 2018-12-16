@@ -1,8 +1,11 @@
 <!DOCTYPE html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html>
 <head>
   <title>Awam</title>
-<link href="https://fonts.googleapis.com/css?family=Bungee|Oswald" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css?family=Bungee|Oswald|Teko" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet"> 
 <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -10,35 +13,14 @@
 </head>
 <body>
   
-
-<nav class="navbar navbar-light bg-light">
+<div class="container-fluid">
+<nav class="navbar navbar-light bg-light" role="navigation">
   
- <!-- Search bar and dropdown link -->
-<form class="navbar-form navbar-left" role="search">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search Fundraisers">
-  </div>
-  
-  <div class="btn-group" role="group" aria-label="...">
-  <button type="submit" class="btn btn-default">Submit</button>
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Dropdown
-      <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu">
-      <li><a href="#">Dropdown link</a></li>
-      <li><a href="#">Dropdown link</a></li>
-    </ul>
-  </div>
-  </div>
-</form>
 
-  <!-- Search bar and dropdown link -->
 
 <!-- Brandname + Logo -->
 
-  <div class ="float_center" >
+  <div class ="float-left" >
     
     <%= link_to root_path, class: "navbar-brand" do %>
 
@@ -49,6 +31,31 @@
   </div>
   
   <!-- Brandname + Logo -->
+  
+   <!-- Search bar and dropdown link -->
+<form class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Search Fundraisers">
+  </div>
+  
+  <div class="btn-group" role="group" aria-label="...">
+  <button type="submit" class="dab btn btn-default">Search</button>
+  <div class="btn-group" role="group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Categories
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Medical</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Education</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Emergency</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Memorial</a></li>
+    </ul>
+  </div>
+  </div>
+</form>
+
+  <!-- Search bar and dropdown link -->
 
   <!-- Log in and sign up buttons -->
 
@@ -73,13 +80,97 @@
   <%end%>
   
   
-</div>
+
 
 <!-- Log in and sign up buttons -->
-
+</div>
 </nav>
-<%= yield %>
 
+</div>
+<%= yield %>
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+            <!-- Links -->
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a>Hamza is a nigger</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
 </body>
 
 </html>

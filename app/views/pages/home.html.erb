@@ -1,9 +1,100 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- jumbotron -->
 <h1 class="jumbotron jumbotron-fluid container-fluid text-left" >
+      
       <div class="msg">
-    Help empower your community by starting 
-    </br>
-     a fundraiser today.
-    </div>
-    </h1>
-    
+            Help empower your community by starting 
+            </br>
+             a fundraiser today.
+             </br>
      
+      <%= link_to about_path do %>
+          <button type="button" class="btn btn-default">Start A Fundraiser</button>
+  
+      <%end%>
+      </div>
+</h1>
+    <!-- buttons beneath jumbotron -->
+
+<div class= "btn-group btn-group-justified" role= "group" aria-label="...">
+        
+    
+    <%= link_to about_path do %>
+        <button type="button" class="srtf btn btn-default">Start A Fundraiser</button>
+    <%end%>
+    
+    <%= link_to about_path do %>
+        <button type="button" class="expl btn btn-default">Search Initiatives</button>
+    <%end%>
+  
+</div>
+</br>
+<!-- Categories -->
+
+<h1 class="cats text-center">
+    &nbsp; Categories
+</h1>
+
+
+<div class="btn-group btn-group-justified text-center" role= "group" aria-label="...">
+        
+    
+    <%= link_to about_path do %>
+    <button type="button" class="med btn btn-default">
+        <span class="glyphicon glyphicon-heart"></span>
+        <br>
+           Medical  
+    </button>
+    
+    <%end%>
+    
+    <%= link_to about_path do %>
+       <button type="button" class="edu btn btn-default">
+           <span class="glyphicon glyphicon-book"></span>
+            <br>
+           Education
+        </button>
+    <%end%>
+  
+</div>
+
+<div class= "btn-group btn-group-justified text-center" role= "group" aria-label="...">
+        
+    
+    <%= link_to about_path do %>
+
+        
+        <button type="button" class="eme btn btn-default">
+            <span class="glyphicon glyphicon-flash"></span>
+            <br>
+            Emergency
+        </button>
+        
+    <%end%>
+    
+    <%= link_to about_path do %>
+        <button type="button" class="mem btn btn-default">
+            <span class="glyphicon glyphicon-leaf"></span>
+            <br>
+            Memorial  
+        </button>
+    <%end%>
+  
+</div>
+
+<h1 class="cats text-center">
+    What Category Is Best Suited For You?
+</h1>
+
+<div class="sgn">
+    <%= link_to about_path do %>
+
+        
+        <button type="button" class="sgn1 btn btn-default">
+            Sign Up For Free
+        </button>
+        <%end%>
+        </div>
+        
+        
