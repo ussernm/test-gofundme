@@ -179,7 +179,8 @@ Float Center Code */
 /*2 Buttons directly under jumbotron*/
 .expl, .expl:focus, .expl:active, .expl:hover {
     margin-top: 30px;
-  margin-left: 50px;
+  //margin-left: 50px;
+  min-width: 250px;
       margin-bottom: 30px;
     padding-left: 150px;
     padding-top: 150px;
@@ -187,35 +188,34 @@ Float Center Code */
     padding-right: 130px;
     
         background-image:url('https://images.pexels.com/photos/327186/pexels-photo-327186.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        background-size: 100% 100%;
+
+        background-size: cover;
         color: white;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         font-weight: 900;
         font-family: "Oswald";
-        font-size: 55px;
-         float: none;
-display: block;
+        font-size: 3.3vw;
+
 
 }
 
 .srtf, .srtf:focus, .srtf:active, .srtf:hover{
         margin-top: 30px;
+   min-width: 250px;
 
       margin-bottom: 30px;
 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    margin-left: 120px;
+   // margin-left: 120px;
     padding-left: 150px;
     padding-top: 150px;
     padding-bottom: 110px;
     padding-right: 130px;
-float: none;
-display: block;
         background-image:url('https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-        background-size: 100% 100%;
+        background-size: cover;
         color: white;
         font-weight: 900;
         font-family: "Oswald";
-        font-size: 55px;
+        font-size: 3.3vw;
     }
   .srtf:hover, .expl:hover {
 box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
