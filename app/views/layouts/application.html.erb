@@ -22,7 +22,7 @@
 
   <div class ="float-left" >
     
-    <%= link_to root_path, class: "navbar-brand" do %>
+    <%= link_to root_path, class: "big navbar-brand" do %>
 
       <i class="fa fa-gift"></i>  
       Awam
@@ -31,6 +31,26 @@
   </div>
   
   <!-- Brandname + Logo -->
+  
+  <!-- Dropdown on navbar-brand when screen is a bit small -->
+<div class="smallic btn-group" role="group">
+    <button type="button" class="small btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+    <i class="fa fa-gift"></i> 
+      Awam
+      
+      <span class="caret"></span>
+    </button>
+    <ul class="smaldr dropdown-menu">
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Sign Up</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Log In</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Search</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Medical</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Education</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Emergency</a></li>
+      <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Memorial</a></li>
+    </ul>
+  </div>
+<!-- Dropdown on navbar-brand when screen is a bit small -->
   
    <!-- Search bar and dropdown link -->
 <form class="navbar-form navbar-left" role="search">
@@ -41,11 +61,13 @@
   <div class="btn-group" role="group" aria-label="...">
   <button type="submit" class="dab btn btn-default">Search</button>
   <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button type="button" class="bigdr btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       Categories
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu">
+      
+    
       <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Medical</a></li>
       <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Education</a></li>
       <li><a data-toggle="collapse" data-target=".navbar-collapse" href="#">Emergency</a></li>
@@ -83,6 +105,9 @@
 
 
 <!-- Log in and sign up buttons -->
+
+
+
 </div>
 </nav>
 
