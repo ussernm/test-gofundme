@@ -3,7 +3,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-
+// ===================================================HOME PAGE CSS====================================================================================================
 .jumbotron {
    
     margin-top: -20px;
@@ -288,4 +288,26 @@ box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
     border-radius: 0;
     font-size: 20px;
     font-family: "Rajdhani";
+}
+
+
+// ===================================================END OF HOME PAGE CSS====================================================================================================
+
+
+
+// ===================================================SIGN UP PAGE CSS========================================================================================================
+
+.sgnupmsg, {
+    margin-left: 8%;
+    font-family: Rajdhani;
+    font-weight: 1000;
+    font-size: 2vw;
+}
+
+.sgnupmsg2 {
+        margin-left: 8%;
+
+    font-family: Rajdhani;
+    font-weight: 300;
+    font-size: 1.2vw;
 }

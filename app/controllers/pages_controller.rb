@@ -7,3 +7,7 @@ def about
 end
 
 end
+
+def signup 
+    
+end
