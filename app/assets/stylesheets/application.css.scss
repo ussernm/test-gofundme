@@ -299,15 +299,111 @@ box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
 
 .sgnupmsg, {
     margin-left: 8%;
-    font-family: Rajdhani;
+    font-family: Oswald;
     font-weight: 1000;
-    font-size: 2vw;
+    font-size: 3.3vw;
+    color: black;
+        margin-right: none;
+
+
 }
 
 .sgnupmsg2 {
-        margin-left: 8%;
-
+       margin-left: 8%;
+color: black;
     font-family: Rajdhani;
     font-weight: 300;
-    font-size: 1.2vw;
+    font-size: 30px;
+    margin-right: none;
+}
+.sgnupmsg3 {
+    margin-top: 40px;
+color: black;
+    font-family: Rajdhani;
+    font-weight: 900;
+    font-size: 30px;
+    margin-right: none;
+}
+//Gradient of div
+.bgdiv {
+    background: #E0EAFC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.back {
+margin-left: 4%;
+float:left;
+
+}
+@media only screen and (min-width: 950px) {
+.sgnupfrm {
+    position: absolute;
+  // float:center;
+   float:left;
+    margin-left: 41%;
+    font-family: Rajdhani;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+}
+
+@media only screen and (min-width: 950px) {
+.lginfrm {
+    margin-left: 28%;
+   // padding-right: 10%;
+    margin-bottom: 20%;
+   // float:center;
+float: left;
+//position: fixed;
+    font-family: Rajdhani;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+}
+
+input[type=text] {
+  width: 120%
+}
+
+@media only screen and (max-width: 950px) {
+    .lginfrm {
+//position: fixed;
+margin-left: 15%;
+display: block;
+padding: none;
+//overflow: hidden;
+float:left;
+
+float: center;
+        
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .sgnupfrm {
+//position: fixed;
+float: center;
+float:left;
+display: block;
+padding: none;
+//overflow: hidden;
+margin-left: 15%;
+
+}
+}
+
+@media only screen and (max-width: 950px) {
+#Title, .back {
+//float: left;
+    font-size: 30px;
+}
+    }
+
+@media only screen and (max-width: 950px) {
+input[type=text] {
+  width: 200px;
+}
 }
