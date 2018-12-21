@@ -4,11 +4,11 @@
 @import "font-awesome";
 
 // ===================================================HOME PAGE CSS====================================================================================================
-.jumbotron {
+.homej {
    
     margin-top: -20px;
     padding-top: 250px;
-    padding-bottom: 320px;
+  //  padding-bottom: 320px;
     font-family: "Oswald";
     color: black;
     font-weight: 900;
@@ -45,6 +45,7 @@
 display: none;
 }
 }
+
 
 @media only screen and (min-width: 784px) {
     .smallj,  .smalli{
@@ -195,7 +196,7 @@ Float Center Code */
         font-weight: 900;
         font-family: "Oswald";
         font-size: 3.3vw;
-
+border-color: black;
 
 }
 
@@ -213,18 +214,58 @@ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
         background-image:url('https://images.pexels.com/photos/461049/pexels-photo-461049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
         background-size: cover;
         color: white;
+        border-color: black;
         font-weight: 900;
         font-family: "Oswald";
         font-size: 3.3vw;
     }
   .srtf:hover, .expl:hover {
-box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
- }  
+box-shadow: 0px 0px 9px 4px rgba(255,255,255,1);
+}  
  
 /*2 Buttons directly under jumbotron*/
 
 /*Categories headings + icons*/
+@media only screen and (min-width: 1086px){
+#calendar{
+    float: left;
+    padding-left: 17%;
+    margin-bottom: 3%;
 
+}
+}
+
+@media only screen and (min-width: 1086px){
+#expid{
+    padding-right: 20%;
+    margin-bottom: 3%;
+
+  float: right;
+}
+
+}
+
+#lock {
+    font-size: 75px;
+    color: white;
+}
+
+#icon_font {
+    font-size: 20px;
+    font-family: Rajdhani;
+    color: white;
+}
+
+#icons {
+  background:black;
+}
+
+@media only screen and (max-width: 1086px){
+    #expid, #calendar{
+position: relative;
+
+}
+}
 .cats {
     font-family: "Teko";
     font-size: 65px;
@@ -290,6 +331,10 @@ box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
     font-family: "Rajdhani";
 }
 
+#catsb {
+    background: black;
+    margin: none;
+}
 
 // ===================================================END OF HOME PAGE CSS====================================================================================================
 
@@ -304,6 +349,7 @@ box-shadow: -2px 3px 38px -5px rgba(0,0,0,0.75);
     font-size: 3.3vw;
     color: black;
         margin-right: none;
+            color: white;
 
 
 }
@@ -315,6 +361,7 @@ color: black;
     font-weight: 300;
     font-size: 30px;
     margin-right: none;
+        color: white;
 }
 .sgnupmsg3 {
     margin-top: 40px;
@@ -323,17 +370,16 @@ color: black;
     font-weight: 900;
     font-size: 30px;
     margin-right: none;
+        color: white;
 }
 //Gradient of div
 .bgdiv {
-    background: #E0EAFC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   background: black;
 }
 .back {
 margin-left: 4%;
 float:left;
+    color: white;
 
 }
 @media only screen and (min-width: 950px) {
@@ -345,6 +391,7 @@ float:left;
     font-family: Rajdhani;
     font-weight: 900;
     font-size: 18px;
+    color: white;
     
 }
 }
@@ -360,7 +407,7 @@ float: left;
     font-family: Rajdhani;
     font-weight: 900;
     font-size: 18px;
-    
+        color: white;
 }
 }
 
@@ -376,11 +423,12 @@ display: block;
 padding: none;
 //overflow: hidden;
 float:left;
-
+    color: white;
 float: center;
         
     }
 }
+
 
 @media only screen and (max-width: 950px) {
     .sgnupfrm {
@@ -391,7 +439,7 @@ display: block;
 padding: none;
 //overflow: hidden;
 margin-left: 15%;
-
+    color: white;
 }
 }
 
@@ -399,6 +447,7 @@ margin-left: 15%;
 #Title, .back {
 //float: left;
     font-size: 30px;
+       text-color: white;
 }
     }
 
