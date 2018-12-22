@@ -258,6 +258,7 @@ box-shadow: 0px 0px 9px 4px rgba(255,255,255,1);
 
 #icons {
   background:black;
+//  margin-top: -3%;
 }
 
 @media only screen and (max-width: 1086px){
@@ -270,8 +271,12 @@ position: relative;
     font-family: "Teko";
     font-size: 65px;
     color: black;
+  //  margin-bottom: 5%;
+    margin-top: 5%;
 }
-
+.sgn {
+    margin-bottom: 5%;
+}
 .eme {
     padding: 63px;
     font-size: 30px;
@@ -333,7 +338,7 @@ position: relative;
 
 #catsb {
     background: black;
-    margin: none;
+    margin-top: -3%;
 }
 
 // ===================================================END OF HOME PAGE CSS====================================================================================================
@@ -375,6 +380,7 @@ color: black;
 //Gradient of div
 .bgdiv {
    background: black;
+   margin-bottom: -8%;
 }
 .back {
 margin-left: 4%;
@@ -456,3 +462,181 @@ input[type=text] {
   width: 200px;
 }
 }
+
+// ===================================================END OF SIGN UP CSS====================================================================================================]
+
+// ===================================================FUNDS CSS ============================================================================================================
+
+
+
+#fund_title {
+   // margin-top: 10%;
+    font-family: Oswald;
+    font-size: 3.3vw;
+    font-weight: 1000;
+   // float: left;
+    
+}
+
+#fund_title2 {
+   // margin-top: 10%;
+    font-family: Oswald;
+    font-size: 5vw;
+    font-weight: 1000;
+   // float: left;
+   margin-bottom: 10%;
+   margin-top: none;
+    
+}
+#fund_sub {
+    font-family: Rajdhani;
+    font-size: 2vw;
+   // float: left;
+}
+@media only screen and (min-width: 900px) { 
+#haid {
+    height: auto;
+    max-width: 45%;
+    float: right;
+    margin-right: 10%;
+  
+  //  display: inline-block;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#haid {
+    float: right;
+    margin-right: 3%;
+    max-width: 60%;
+}
+} 
+@media only screen and (max-width: 550px) {
+#haid, #fund_sub, #fund_title{
+display: none;
+}
+
+}
+@media only screen and (min-width: 900px) {
+#fund_title2 {
+    display: none;
+}
+    
+}
+    @media only screen and (min-width: 550px) { 
+      #fund_title2{
+          display: none;
+      }   
+    }
+@media only screen and (max-width: 550px) {
+ #fund_title2 {
+     visibility: visible;
+ }   
+}
+  
+#funddiv {
+    margin-top: 3%;
+    float: left;
+}
+  @media only screen and (min-width: 900px) {
+#medtit {
+    padding-top: none;
+    padding-bottom: none;
+   
+   border-top: solid;
+   border-bottom: solid;
+    margin-bottom: none;
+    //margin-left: 5%;
+    padding-top: -20%;
+    padding-left: 5%;
+ border-width: 0.5px;
+    
+}
+}
+ @media only screen and (min-width: 550px) {
+#medtit {
+    padding-top: none;
+    padding-bottom: none;
+   
+   border-top: solid;
+   border-bottom: solid;
+    margin-bottom: none;
+    //margin-left: 5%;
+    padding-top: -20%;
+    padding-left: 5%;
+ border-width: 0.5px;
+    
+}
+}
+  @media only screen and (max-width: 550px) {
+ #medtit{
+     border-top: none;
+     border-bottom: none;
+ }   
+}
+#gass{
+    padding-top: 5%;
+    margin-bottom: none;
+    padding-bottom: 5%;
+    background: black;
+}
+#gass_head {
+    font-family: Oswald;
+    font-size: 3.2vw;
+    font-weight: 1000;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#gass_sub1, #gass_sub2 {
+    color: white;
+    font-family: Rajdhani;
+    font-size: 2vw;
+    
+}
+
+#firstg {
+    
+    border-right: solid;
+    border-color: white;
+    float: left;
+    padding-left: 12%;
+    padding-right: 4%;
+    border-width: 0.5px;
+    
+}
+
+#secondg {
+    margin: none;
+    padding-left: 5%;
+    float: left;
+        
+      padding-right: 4%;
+}
+
+#thirdg {
+    float: left;
+    border-left: solid;
+    border-width: 0.5px;
+     
+    border-color: white;
+    padding-left: 5%;
+}
+
+#myCarousel {
+    max-width: 80%;
+    height: auto;
+
+}
+
+#car {
+       padding-left: 18%;
+    background: white;
+}
+
+
+
+
+
+
+
